@@ -1,0 +1,71 @@
+#modal-register {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    background-color: aqua;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+#form section {
+    display: flex;
+    gap: 1rem;
+}
+
+#form p.error {
+    margin: 0;
+}
+
+#form section p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+#form section p input {
+    border-radius: .25rem;
+}
+
+#form #nameField input {
+    width: 520px;
+}
+
+.error input {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+}
+
+#buttons-card {
+    display: flex;
+    justify-content: center;
+}
+
+#form button {
+    color: #f1f1f1;
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+    background-color: #291291;
+}
+
+#headerForm {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgilizeMed</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="src/components/cardUser/cardUser.css">
+    <link rel="stylesheet" href="src/components/modalAlert/modalAlert.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <header></header>
+    <main>
+        <button id="createUser">Criar Usuario</button>
+        <section id="modal-register" style="display: none;">
+            <form id="form">
+                <section id="headerForm">
+                    <h2>Formulário de Cadastro</h2>
+                </section>
+                <section>
+                    <p id="nameField">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="nameInput" name="name">
+                    </p>
+                    
+                    <p id="dateOfBirthField">
+                        <label for="dateOfBirth">Data de Nascimento</label>
+                        <input type="date" id="dateOfBirthInput" name="dateOfBirth">
+                    </p>
+                </section>
+                <section>
+                    <p>
+                        <label for="motherName">Nome da mãe</label>
+                        <input type="text" id="motherNameInput" name="motherName">
+                    </p>
+
+                    <p>
+                        <label for="fatherName">Nome do pai</label>
+                        <input type="text" id="fatherNameInput" name="fatherName">
+                    </p>
+                </section>
+
+                <section>
+                    <p>
+                        <label for="cns">CNS</label>
+                        <input type="text" id="cnsInput" name="cns">
+                    </p>
+                    
+                    <p>
+                        <label for="cpf">CPF</label>
+                        <input type="text" id="cpfInput" name="cpf">
+                    </p>
+                </section>
+
+                <section>
+                    <p>
+                        <label for="phone">Telefone</label>
+                        <input type="tel" id="phoneInput" name="phone">
+                    </p>
+                    
+                    <p>
+                        <label for="adress">Endereço</label>
+                        <input type="address" id="adressInput" name="adress">
+                    </p>
+                    
+                    <p>
+                        <label for="acs">ACS</label>
+                        <select id="acs" name="acs">
+                            <option value=""></option>
+                            <option value="ricardo">Ricardo</option>
+                            <option value="adriano">Adriano</option>
+                            <option value="flavia">Flavia</option>
+                        </select>
+                    </p>
+                </section>
+
+                <div id="buttons-card">
+
+                </div>
+            </form>
+        </section>
+
+        <section id="users">
+            
+        </section>
+    </main>
+
+    <footer></footer>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>

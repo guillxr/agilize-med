@@ -1,0 +1,48 @@
+.modal-error {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-error-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    border-radius: .5rem;
+    background-color: #f1f1f1;
+    padding: 2rem;
+    max-width: 400px;
+}
+
+.modal-error-content svg {
+    width: 65px;
+    height: 65px;
+}
+
+.modal-error-content p {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.modal-error-content button {
+    color: #f1f1f1;
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+}
+
+.errorAlert {
+    background-color: #f15e5e;
+}
+
+.successAlert {
+    background-color: #5ef19b;
+}
